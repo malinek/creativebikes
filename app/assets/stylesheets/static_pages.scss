@@ -1,3 +1,77 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-top: 50px;
+}
+
+h1 {
+  font-family: "Lucida Sans", Arial, sans-serif;
+  color: #15272d;
+  text-align: center;
+}
+
+h2 {
+  font-family: Tahoma, Calibri, Arial, Sans-serif;
+  color: #23424c;
+  text-align: center;
+}
+
+/** NAVIGATION BAR **/
+
+.navbar {
+  background-color: #468499;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #ecf2f4;
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: #23424c;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/** FOOTER **/
+
+.page-wrap {
+  min-height: 100%;
+  margin-botton: -70px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+  height: 70px;
+}
+
+.site-footer {
+  background: #ffa500;
+}
+
+.site-footer p {
+  color: #ffe4b2;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 800;
+  font-size: 1.4em;
+  text-align: center;
+  padding-top: 20px;
+}
