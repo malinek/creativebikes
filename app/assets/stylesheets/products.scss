@@ -1,3 +1,26 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+th {
+	font-family: Tahoma, Calibri, Arial, Sans-serif;
+  color: #23424c;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+a {
+	font-family: Tahoma, Calibri, Arial, Sans-serif;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+label {
+	font-family: Tahoma, Calibri, Arial, Sans-serif;
+  color: #23424c;
+  font-size: 1.1em;
+}
+
+form {
+	margin-left: 10px;
+}
