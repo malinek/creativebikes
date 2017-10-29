@@ -2,23 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-th {
+h2 {
 	font-family: Tahoma, Calibri, Arial, Sans-serif;
   color: #23424c;
   font-size: 1.5em;
-  padding: 10px;
 }
 
-a {
-	font-family: Tahoma, Calibri, Arial, Sans-serif;
-  font-size: 1.2em;
-  padding-left: 10px;
-}
-
-label {
-	font-family: Tahoma, Calibri, Arial, Sans-serif;
-  color: #23424c;
-  font-size: 1.1em;
+.col-sm-2, .col-md-4 {
+  position: relative;
+  text-align: center;
 }
 
 form {
