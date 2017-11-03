@@ -13,6 +13,7 @@ html, body {
 body {
   position: relative;
   padding-top: 50px;
+  background-color: #f2f4ec;
 }
 
 h1 {
@@ -52,6 +53,7 @@ h2 {
 .page-wrap {
   min-height: 100%;
   margin-botton: -70px;
+  background-color: #f2f4ec;
 }
 
 .page-wrap:after {
@@ -78,14 +80,24 @@ h2 {
 
 /** CAROUSEL **/
 
-#carousel-example-generic {
-  padding-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+.carousel {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .carousel-inner > .item > img {
-margin: auto;
-width: 100%;
-height: 100%;
+  margin: auto;
+  width: 100%;
+}
+
+a:hover {
+  background-color: transparent;
+}
+
+.carousel-caption {
+  padding-bottom: 350px;
+  font-size: 2.3em;
+  font-family: Nunito, sans-serif;
 }
