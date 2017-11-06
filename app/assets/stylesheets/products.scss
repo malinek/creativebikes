@@ -2,17 +2,44 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h2 {
-	font-family: Tahoma, Calibri, Arial, Sans-serif;
-  color: #23424c;
+h3 {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  color: #15272d;
   font-size: 1.5em;
+  margin-top: 10px;
 }
 
-.col-sm-2, .col-md-4 {
-  position: relative;
+.row {
   text-align: center;
+  margin: 15px;
+}
+
+.imageproductpage {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #15272d;
+}
+
+.productinfo {
+  background-color: #d3e2d7;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#74937d;
+  margin-top: -15px;
+  min-height: 185px;
+}
+
+.new-product {
+  font-size: 1.5em;
+  color: #15272d;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 170px;
+  height: 50px;
 }
 
 form {
-	margin-left: 10px;
+  margin-left: 10px;
 }

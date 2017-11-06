@@ -13,47 +13,15 @@ html, body {
 body {
   position: relative;
   padding-top: 50px;
-  background-color: #f2f4ec;
+  background-color: #fffaea;
 }
-
-h1 {
-  font-family: "Lucida Sans", Arial, sans-serif;
-  color: #15272d;
-  text-align: center;
-}
-
-h2 {
-  font-family: Tahoma, Calibri, Arial, Sans-serif;
-  color: #23424c;
-  text-align: center;
-}
-
-/** NAVIGATION BAR **/
-
-.navbar {
-  background-color: #468499;
-}
-
-.navbar-inverse .navbar-nav li a {
-  color: #ecf2f4;
-  text-transform: uppercase;
-  font-family: "Source Code Pro", monospace;
-  font-weight: 800;
-  font-size: 1.3em;
-}
-
-.navbar-inverse .navbar-nav li a:hover {
-  color: #23424c;
-  transition: color 600ms;
-  -webkit-transition: color 600ms;
-}
-
-/** FOOTER **/
 
 .page-wrap {
   min-height: 100%;
   margin-botton: -70px;
-  background-color: #f2f4ec;
+  background-color: #fffaea;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .page-wrap:after {
@@ -61,17 +29,57 @@ h2 {
   display: block;
 }
 
+h1 {
+  font-family: Federo, sans-serif;
+  color: #15272d;
+  text-align: center;
+}
+
+h2 {
+  font-family: Federo, sans-serif;
+  color: #15272d;
+  text-align: center;
+}
+
+.imageindexpage {
+  margin: auto;
+  padding-top: 20px;
+}
+
+/** NAVIGATION BAR **/
+
+.navbar {
+  background-color: #91b89d;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #f4f7f5;
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  font-size: 1.3em;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+  color: #15272d;
+}
+
+/** FOOTER **/
+
 .site-footer, .page-wrap:after {
   height: 70px;
 }
 
 .site-footer {
-  background: #ffa500;
+  background: #74937d;
 }
 
 .site-footer p {
   color: #ffe4b2;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", monospace, sans-serif;
   font-weight: 800;
   font-size: 1.4em;
   text-align: center;
@@ -81,10 +89,20 @@ h2 {
 /** CAROUSEL **/
 
 .carousel {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .carousel {
+    width: 100%;
+  }
+}
+
+.carousel-indicators .active{
+  background-color: #ffe4b2;
 }
 
 .carousel-inner > .item > img {
@@ -97,7 +115,13 @@ a:hover {
 }
 
 .carousel-caption {
-  padding-bottom: 350px;
-  font-size: 2.3em;
-  font-family: Nunito, sans-serif;
+  padding-bottom: 50px;
+  font-size: 3.5em;
+  font-family: Niconne, Nunito, sans-serif;
+  color: #ffe4b2;
 }
+
+.glyphicon {
+  color: #ffe4b2;
+}
+
