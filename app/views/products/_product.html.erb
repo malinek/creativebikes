@@ -6,10 +6,10 @@
     <a href="#"><h3><%= product.name %></h3></a>
     <p><%= product.description %></p>
     <p><Strong>Colour: </Strong><%= product.colour %></p>
-    <p><Strong>Price: </Strong><%= product.price %></p>
+    <p><Strong>Price: € </Strong><%= product.price %></p>
     <br>
     <%= link_to 'Show', product %>
-    <%= link_to 'Edit', edit_product_path(product) %>
+    <%= link_to 'Edit' , edit_product_path(product) %>
     <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
 </div><!-- end col-sm-12 col-md-6 col-lg-3 -->
