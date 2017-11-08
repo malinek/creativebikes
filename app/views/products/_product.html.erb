@@ -3,7 +3,7 @@
     <%= image_tag(product.image_url, class: "img-responsive imageproductpage") %>
   </div>
   <div class="row productinfo">
-    <a href="#"><h3><%= product.name %></h3></a>
+    <h3><%= link_to product.name, product %></h3>
     <p><%= product.description %></p>
     <p><Strong>Colour: </Strong><%= product.colour %></p>
     <p><Strong>Price: € </Strong><%= product.price %></p>
