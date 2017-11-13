@@ -13,9 +13,6 @@ class ProductsController < ApplicationController
     end
   end
 
-  if Rails_env=production
-    
-
   # GET /products/1
   # GET /products/1.json
   def show
