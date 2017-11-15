@@ -1,2 +1,23 @@
-<h2>You can get in contact with us by sending an email: example@email.com</h2>
-<h2>Of course it's also possible to contact us by telephone: +49 XXX XXXXXXX</h2>
+<h2>Contact us</h2>
+
+<%= flash[:notice] %>
+
+<%= form_tag("/static_pages/thank_you", class: "contact-form") do %>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="form-group">
+        <%= label_tag :name %>
+        <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter name" %>
+      </div>
+      <div class="form-group">
+        <%= label_tag :email, "Email Address" %>
+        <%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email" %>
+      </div>
+      <div class="form-group">
+        <%= label_tag :message %>
+        <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter message" %>
+      </div>
+    </div><!-- end col-md-4 -->
+  </div><!-- end row contact-form -->
+  <%= submit_tag "Send", class: "btn btn-default form-button" %>
+<% end %>

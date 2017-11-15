@@ -30,7 +30,7 @@ h3 {
   min-height: 185px;
 }
 
-.new-product {
+.new-product-link {
   font-size: 1.5em;
   color: #15272d;
   display: block;
@@ -40,12 +40,33 @@ h3 {
   height: 50px;
 }
 
+/** NEW & EDIT PRODUCT PAGE **/
+
+.form-field {
+  margin: auto;
+  width: 30%;
+  background-color: #f4f7f5;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
 .field {
   color: #15272d;
   font-family: Nunito, arial, helvetica, sans-serif;
   font-size: 1.2em;
 }
 
-.actions {
-  padding: 0px;
+.form2-button {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .form-field {
+    width: 100%;
+  }
 }

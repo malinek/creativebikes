@@ -13,13 +13,13 @@ html, body {
 body {
   position: relative;
   padding-top: 50px;
-  background-color: #fffaea;
+  background-color: #fefbcf;
 }
 
 .page-wrap {
   min-height: 100%;
   margin-botton: -70px;
-  background-color: #fffaea;
+  background-color: #fefbcf;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -84,7 +84,7 @@ h2 {
 
 .btn-default {
   background-color: #f4f7f5;
-  color: #485c4e;
+  color: #15272d;
   font-family: "Source Code Pro", monospace, sans-serif;
   font-weight: 800;
 }
@@ -158,3 +158,80 @@ a:hover {
   color: #ffe4b2;
 }
 
+/** CONTACT PAGE **/
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 40%;
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.form-control {
+  background-color: #f4f7f5;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .contact-form {
+    width: 100%;
+  }
+}
+
+.form-button {
+  display: block;
+  margin: auto;
+  width: 20%;
+  background-color: #f4f7f5;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+.form button:hover {
+  background-color: #ffe4b2;
+  color: #15272d;
+}
+
+
+/** THANK YOU PAGE **/
+
+.panel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.panel-body {
+  text-align: center;
+  background-color: #fefbcf;
+  border-style: double;
+  border-width: 10px;
+  border-color: #91b89d;
+}
+
+.panel-body p {
+  font-family: Niconne, Nunito, sans-serif;
+  font-size: 2em;
+  line-height: 28px;
+}
+
+.thankyouimage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .panel {
+    width: 100%;
+  }
+}
