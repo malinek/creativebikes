@@ -2,5 +2,8 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @product, class: "back-and-edit-link" %> |
-<%= link_to 'Back', products_path, class: "back-and-edit-link" %>
+
+<div class="back-and-edit-link">
+<%= link_to 'Show', @product %> |
+<%= link_to 'Back', products_path %>
+</div>

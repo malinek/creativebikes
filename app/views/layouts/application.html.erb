@@ -38,9 +38,9 @@
         
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-left">
-            <li> <%= link_to "Products", products_path %></li>
-            <li> <%= link_to "About", static_pages_about_path %></li>
-            <li> <%= link_to "Contact", static_pages_contact_path %></li>
+            <li class="left-links"> <%= link_to "Products", products_path %></li>
+            <li class="left-links"> <%= link_to "About", static_pages_about_path %></li>
+            <li class="left-links"> <%= link_to "Contact", static_pages_contact_path %></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
@@ -49,10 +49,20 @@
                 <%= submit_tag("Search", class: "btn btn-default btn-sm") %>
               <% end %>
             </li>
+            <li class="right-links">
+            <% if user_signed_in? %>
+              <%= link_to("Logout", destroy_user_session_path, method: :delete) %>
+            <% else %>
+              <%= link_to("Login", new_user_session_path) %>
+            <% end %>
+            </li>
           </ul>
         </div> <!-- end navbar-collapse collapse -->
       </div> <!-- end nav container -->
     </nav> <!-- END NAVIGATION BAR -->
+
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
   <%= yield %>
 

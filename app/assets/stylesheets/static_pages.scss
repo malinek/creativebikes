@@ -67,7 +67,7 @@ h2 {
   padding-left: 10px;
 }
 
-.navbar-inverse .navbar-nav li a {
+.navbar-inverse .navbar-nav .left-links a {
   color: #f4f7f5;
   text-transform: uppercase;
   font-family: "Source Code Pro", monospace, sans-serif;
@@ -78,15 +78,16 @@ h2 {
   -webkit-transition: color 600ms;
 }
 
-.navbar-inverse .navbar-nav li a:hover {
+.navbar-inverse .navbar-nav .left-links a:hover {
   color: #15272d;
 }
 
-.btn-default {
+.btn-default, .btn-sm {
   background-color: #f4f7f5;
   color: #15272d;
   font-family: "Source Code Pro", monospace, sans-serif;
   font-weight: 800;
+  line-height: 20px;
 }
 
 .btn-default:hover {
@@ -97,7 +98,24 @@ h2 {
 .textfield {
   background-color: #f4f7f5;
   color: #15272d;
+  line-height: 23px;
   margin-top: 10px;
+  padding: 4px;
+  border: 0px;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+.navbar-inverse .navbar-nav .right-links a {
+  color: #f4f7f5;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+.navbar-inverse .navbar-nav .right-links a:hover {
+  color: #15272d;
 }
 
 /** FOOTER **/
