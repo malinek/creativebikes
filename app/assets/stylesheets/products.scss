@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/** INDEX PRODUCT PAGE **/
+
 h3 {
   font-family: "Source Code Pro", monospace, sans-serif;
   font-weight: 800;
@@ -77,4 +79,26 @@ h3 {
   margin: auto;
   text-align: center;
   width: 50%;
+}
+
+/** SHOW PAGE **/
+
+#show-product {
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#right-column-show h2 {
+  font-family: Niconne, Nunito, sans-serif;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+#right-column-show h3 {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 100;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 30px;
 }
