@@ -102,3 +102,9 @@ h3 {
   text-align: center;
   margin-bottom: 30px;
 }
+
+@media only screen and (max-device-width: 1024px) {
+  #show-product {
+    padding: 0px;
+  }
+}

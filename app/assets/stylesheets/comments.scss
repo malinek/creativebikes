@@ -1,0 +1,31 @@
+// Place all the styles related to the comments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.comments {
+  padding-top: 20px;
+  padding-left: 55px;
+}
+
+.body-comments {
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1em;
+}
+
+h4 {
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.comments-button {
+  margin-top: 15px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .comments {
+    padding-left: 0px;
+  }
+}

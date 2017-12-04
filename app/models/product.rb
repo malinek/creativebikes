@@ -10,10 +10,14 @@ class Product < ActiveRecord::Base
     comments.rating_asc.first
   end
 
-end
+  def average_rating
+    comments.average(:rating).to_f
+  end
 
-def Product.search(search_term)
-  like_string = Rails.env.production? ? "ilike" : "LIKE"
-  Product.where("name #{like_string} ?", "%#{search_term}%")
+  def Product.search(search_term)
+    like_string = Rails.env.production? ? "ilike" : "LIKE"
+    Product.where("name #{like_string} ?", "%#{search_term}%")
+  end
+
 end
 

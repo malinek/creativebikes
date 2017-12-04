@@ -20,13 +20,15 @@
       <%= @product.price %>
     </h3>
     <h3>
-      <strong>Rating:</strong><br>
-      <% if @product.highest_rating_comment %>
-        <%= @product.highest_rating_comment.body %>
-      <% end %>
+      <strong>Average Rating:</strong><br>
+      <div class="rated" data-score="<%= @product.average_rating %>"></div>
     </h3>
   </div>
-</div>
+</div><!-- end col-md-12 col-sm-12 show-product -->
+
+<%= render 'new_comment' %>
+
+<%= render 'comments' %>
 
 <div class="back-and-edit-link">
   <%= link_to 'Edit', edit_product_path(@product) %> |

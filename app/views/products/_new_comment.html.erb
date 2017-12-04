@@ -1,0 +1,16 @@
+
+<div class="col-md-12 col-sm-12 comments">
+  <% if signed_in? %>
+    <h4>Add a review:</h4>
+    <%= form_for([@product, @product.comments.build]) do |f| %>
+      <p>
+        <%= f.label :body, "Comments", class: "body-comments" %><br>
+        <%= f.text_area :body, class: "form-field" %>
+      </p>
+      <div class="rating"></div>
+      <div class="actions">
+        <%= f.submit "Submit", class: "btn btn-default form2-button comments-button" %>
+      </div>
+    <% end %>
+  <% end %>
+</div><!-- end col-md-12 col-sm-12 comments -->
