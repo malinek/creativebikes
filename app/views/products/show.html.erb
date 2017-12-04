@@ -30,6 +30,10 @@
 
 <%= render 'comments' %>
 
+<div class="pagination">
+  <%= will_paginate @comments %>
+</div>
+
 <div class="back-and-edit-link">
   <%= link_to 'Edit', edit_product_path(@product) %> |
   <%= link_to 'Back', products_path %>
