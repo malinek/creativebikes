@@ -1,8 +1,8 @@
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%= notice %></p> -->
 
-<h1>Listing Users</h1>
+<h1 class="heading-users">Listing Users</h1>
 
-<table>
+<table class="listing-users">
   <thead>
     <tr>
       <th>First name</th>
@@ -11,7 +11,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody class="listing-users">
     <% @users.each do |user| %>
       <tr>
         <td><%= user.first_name %></td>

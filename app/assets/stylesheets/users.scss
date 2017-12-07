@@ -10,7 +10,6 @@
   height: 20px;
 }
 
-
 .user-form {
   margin-top: 30px;
 }
@@ -48,8 +47,7 @@
   }
 }
 
-
-/** button "Forgot your password-page" **/
+/** BUTTON "Forgot your password-page" **/
 .user-form-button-2 {
   display: block;
   margin: auto;
@@ -65,4 +63,36 @@
   .user-form-button-2 {
     width: 100%;
   }
+}
+
+/** USERS INDEX PAGE **/
+.listing-users {
+  width: 400px;
+}
+
+.heading-users {
+  text-align: left;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+th {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 5px;
+}
+
+/** USERS EDIT PAGE **/
+.edit-user-form {
+  line-height: 24px;
+  font-size: 18px;
+  background-color: #ede6e7;
+  border-color: #84686d;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 3px;
+}
+
+.edit-user-button {
+  line-height: 24px;
 }
