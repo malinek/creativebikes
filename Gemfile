@@ -39,6 +39,7 @@ group :development, :test do
   gem 'sqlite3'
 
   gem 'rspec-rails', '~> 3.6'
+
 end
 
 group :development do
@@ -56,4 +57,6 @@ end
 gem 'devise'
 
 gem 'cancancan', '~> 2.0'
+
+gem 'rails-controller-testing'
 
