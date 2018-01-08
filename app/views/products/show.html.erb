@@ -23,6 +23,11 @@
       <strong>Average Rating:</strong><br>
       <div class="rated" data-score="<%= @product.average_rating %>"></div>
     </h3>
+    <div id="pay-button">
+      <%= form_tag(url: '/payments/create') do |form| %>
+        <%= render partial: "shared/stripe_checkout_button" %>
+      <% end %>
+    </div>
   </div>
 </div><!-- end col-md-12 col-sm-12 show-product -->
 
