@@ -13,3 +13,7 @@
     <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
 </div><!-- end col-sm-12 col-md-6 col-lg-3 -->
+
+<% logger.debug "Product: #{product.description}" %>
+
+<% logger.debug "Product: #{product.price}" %>

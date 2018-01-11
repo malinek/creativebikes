@@ -7,9 +7,11 @@ class ProductsController < ApplicationController
     if params[:q]
       search_term = params[:q]
       @products = Product.search(search_term)
+      logger.debug "Product: #{@products}"
       # return our filtered list here
     else
       @products = Product.all
+      logger.debug "Product: #{@products}"
     end
   end
 
@@ -17,6 +19,7 @@ class ProductsController < ApplicationController
   # GET /products/1.json
   def show
     @comments = @product.comments.order("created_at DESC").paginate(page: params[:page], per_page: 5)
+    byebug
   end
 
   # GET /products/new
