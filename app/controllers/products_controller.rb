@@ -1,5 +1,7 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:show, :index]
+  load_and_authorize_resource
 
   # GET /products
   # GET /products.json
@@ -19,11 +21,6 @@ class ProductsController < ApplicationController
   # GET /products/1.json
   def show
     @comments = @product.comments.order("created_at DESC").paginate(page: params[:page], per_page: 5)
-    
-    if !Rails.env.production?
-    byebug
-    end
-    
   end
 
   # GET /products/new
