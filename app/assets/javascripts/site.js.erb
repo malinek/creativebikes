@@ -26,11 +26,10 @@ $(document).on("turbolinks:load", function(){
 
 $(document).on("turbolinks:load", function (){
 
-  $(".img-zoom").elevateZoom();
+  $(".img-zoom").elevateZoom({
+    tint: true,
+    tintColour: "#eafecf",
+    tintOpacity: 0.5
+  });
 
 });
- 
-
-
-
-

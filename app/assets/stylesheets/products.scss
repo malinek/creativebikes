@@ -5,118 +5,118 @@
 /** INDEX PRODUCT PAGE **/
 
 h3 {
-	font-family: "Source Code Pro", monospace, sans-serif;
-	font-weight: 800;
-	color: #15272d;
-	font-size: 1.5em;
-	margin-top: 10px;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  color: #15272d;
+  font-size: 1.5em;
+  margin-top: 10px;
 }
 
 .row {
-	text-align: center;
-	margin: 15px;
+  text-align: center;
+  margin: 15px;
 }
 
 .imageproductpage {
-	border-style: solid;
-	border-width: 2px;
-	border-color: #15272d;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #15272d;
 }
 
 .productinfo {
-	background-color: #d3e2d7;
-	border-style: solid;
-	border-width: 2px;
-	border-color:#74937d;
-	margin-top: -15px;
-	min-height: 185px;
+  background-color: #d3e2d7;
+  border-style: solid;
+  border-width: 2px;
+  border-color:#74937d;
+  margin-top: -15px;
+  min-height: 185px;
 }
 
 .new-product-link {
-	font-size: 1.5em;
-	color: #15272d;
-	display: block;
-	margin: auto;
-	text-align: center;
-	width: 170px;
-	height: 50px;
+  font-size: 1.5em;
+  color: #15272d;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 170px;
+  height: 50px;
 }
 
 /** NEW & EDIT PRODUCT PAGE **/
 
 .form-field {
-	margin: auto;
-	width: 30%;
-	background-color: #f4f7f5;
-	line-height: 24px;
-	border-style: solid;
-	border-radius: 5px;
-	border-width: 2px;
-	border-color: #91b89d;
+  margin: auto;
+  width: 30%;
+  background-color: #f4f7f5;
+  line-height: 24px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #91b89d;
 }
 
 .field {
-	color: #15272d;
-	font-family: Nunito, arial, helvetica, sans-serif;
-	font-size: 1.2em;
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 .form2-button {
-	border-style: solid;
-	border-radius: 5px;
-	border-width: 2px;
-	border-color: #91b89d;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #91b89d;
 }
 
 @media only screen and (max-device-width: 1024px) {
-	.form-field {
-		width: 100%;
-	}
+  .form-field {
+    width: 100%;
+  }
 }
 
 .back-and-edit-link {
-	display: block;
-	margin: auto;
-	text-align: center;
-	width: 50%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
 }
 
 #error_explanation, .field_with_errors {
-	display: block;
-	margin: auto;
-	text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
 
 /** SHOW PAGE **/
 
 #show-product {
-	padding-top: 30px;
-	padding-left: 40px;
-	padding-right: 40px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 #right-column-show h2 {
-	font-family: Niconne, Nunito, sans-serif;
-	font-size: 3em;
-	margin-bottom: 50px;
+  font-family: Niconne, Nunito, sans-serif;
+  font-size: 3em;
+  margin-bottom: 50px;
 }
 
 #right-column-show h3 {
-	font-family: "Source Code Pro", monospace, sans-serif;
-	font-weight: 100;
-	font-size: 1.4em;
-	text-align: center;
-	margin-bottom: 30px;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 100;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-device-width: 1024px) {
-	#show-product {
-		padding: 0px;
-	}
+  #show-product {
+    padding: 0px;
+  }
 }
 
 #pay-button {
-	display: block;
-	margin: auto;
-	text-align: center;
+  display: block;
+  margin: auto;
+  text-align: center;
 }
