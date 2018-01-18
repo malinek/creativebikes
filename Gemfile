@@ -66,3 +66,5 @@ gem 'stripe'
 
 gem 'brakeman', '~> 4.1', '>= 4.1.1'
 
+gem 'elevatezoom-rails'
+
