@@ -1,9 +1,4 @@
-$(document).on("turbolinks:load", function(){
-  
-  $(".alert").delay(4000).fadeOut(2000);
-});
-
-$(document).on("turbolinks:load", function(){
+var refreshRating = function() {
 
   $(".rating").raty({
     starHalf: "<%= asset_path "star-half.png" %>",
@@ -21,15 +16,18 @@ $(document).on("turbolinks:load", function(){
       return $(this).attr("data-score");
     }
   });
-
-});
+};
 
 $(document).on("turbolinks:load", function (){
+
+  refreshRating();
 
   $(".img-zoom").elevateZoom({
     tint: true,
     tintColour: "#eafecf",
     tintOpacity: 0.5
   });
+
+  $(".alert").delay(4000).fadeOut(2000);
 
 });
