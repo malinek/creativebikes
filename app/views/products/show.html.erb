@@ -5,12 +5,14 @@
     <%= image_tag(@product.image_url, class: "img-responsive img-zoom", data_zoom_image: "@product.image_url") %>
   </div>
   <div class="col-md-6" id="right-column-show">
+  <% cache @product do %>
     <h2>
       <%= @product.name %>
     </h2>
     <h3>
       <%= @product.description %>
     </h3>
+  <% end %>
     <h3>
       <strong>Colour:</strong><br>
       <%= @product.colour %>

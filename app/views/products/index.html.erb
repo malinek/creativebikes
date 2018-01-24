@@ -4,7 +4,9 @@
 <h2 class="link"> <%= link_to "Back to featured products", static_pages_landing_page_path %></h2>
 
 <div class="container-fluid">
+  <% cache (cache_key_for_products) do %>
     <%= render @products %>
+  <% end %>
 </div>
 
 <%= link_to 'New Product', new_product_path, class: "new-product-link" %>
