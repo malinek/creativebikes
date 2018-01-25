@@ -13,3 +13,5 @@ module Myapp
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+#config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
