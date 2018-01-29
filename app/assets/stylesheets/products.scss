@@ -122,9 +122,26 @@ h3 {
 }
 
 .count-views {
-  padding-left: 55px;
+  padding-left: 15px;
 }
 
 .badge {
   background-color: #74937d;
+}
+
+#comments-column {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#comments-alert {
+  width: 300px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:inline-block;
+  color: #493e3a;
+  background-color: #cdbab2;
+  border-color: #937d74;
 }

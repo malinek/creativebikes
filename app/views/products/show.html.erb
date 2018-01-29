@@ -1,9 +1,9 @@
 <!-- <p id="notice"><%= notice %></p> -->
 
-<div class="col-md-12 col-sm-12" id="show-product">
+<div class="col-md-12 col-sm-12" id="show-product" data-product-id="<%= @product.id %>">
   <div class="col-md-6">
     <%= image_tag(@product.image_url, class: "img-responsive img-zoom", data_zoom_image: "@product.image_url") %>
-  </div>
+  </div><!-- end col-md-6 -->
   <div class="col-md-6" id="right-column-show">
   <% cache @product do %>
     <h2>
@@ -12,7 +12,7 @@
     <h3>
       <%= @product.description %>
     </h3>
-  <% end %>
+  <% end %><!-- end caching -->
     <h3>
       <strong>Colour:</strong><br>
       <%= @product.colour %>
@@ -31,27 +31,30 @@
         <%= hidden_field_tag(:product_id, @product.id) %>
       <% end %>
     </div>
-  </div>
+  </div><!-- end col-md-6 right-column-show -->
 </div><!-- end col-md-12 col-sm-12 show-product -->
+<div class="col-md-12 col-sm-12" id="comments-column">
 
-<%= render 'new_comment' %>
+  <div class="alert alert-info" id="comments-alert" style="display :none" role="alert">A new comment was posted!
+  </div>
 
-<div class="alert alert-info" style="display :none" role="alert">A new comment was posted!</div>
+  <%= render 'new_comment' %>
 
-<%= render 'comments' %>
+  <%= render 'comments' %>
 
-<div class="pagination">
+  <div class="pagination">
   <%= will_paginate @comments %>
-</div>
+  </div>
 
-<div class="count-views">
-  <h6>
-  Views:
-    <span class="badge">
-      <%= @product.views %>
-    </span>
-  </h6>
-</div>
+  <div class="count-views">
+    <h6>
+    Views:
+      <span class="badge">
+        <%= @product.views %>
+      </span>
+    </h6>
+  </div>
+  </div>
 
 <div class="back-and-edit-link">
   <%= link_to 'Edit', edit_product_path(@product) %> |

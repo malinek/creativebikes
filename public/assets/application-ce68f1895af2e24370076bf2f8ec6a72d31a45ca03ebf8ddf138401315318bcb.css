@@ -1,0 +1,746 @@
+/* line 5, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+.comments {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+/* line 10, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+.body-comments {
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1em;
+}
+
+/* line 16, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+h4 {
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+/* line 23, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+.comments-button {
+  margin-top: 15px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 28, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+  .comments {
+    padding-left: 0px;
+  }
+}
+/* line 33, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+.pagination {
+  font-size: 1.1em;
+  color: #15272d;
+  padding-left: 8px;
+}
+
+/* line 40, /home/malin/Desktop/myapp/app/assets/stylesheets/comments.scss */
+.glyphicon-remove:before {
+  color: #15272d;
+}
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  font-size: 2em;
+}
+
+@font-face {
+  font-family: "raty";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/raty.eot");
+  src: url("./fonts/raty.eot?#iefix") format("embedded-opentype");
+  src: url("./fonts/raty.svg#raty") format("svg");
+  src: url("./fonts/raty.ttf") format("truetype");
+  src: url("./fonts/raty.woff") format("woff");
+}
+
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "raty";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.cancel-on-png:before {
+  content: "\e600";
+}
+
+.cancel-off-png:before {
+  content: "\e601";
+}
+
+.star-on-png:before {
+  content: "\f005";
+}
+
+.star-off-png:before {
+  content: "\f006";
+}
+
+.star-half-png:before {
+  content: "\f123";
+}
+/** THANK YOU FOR YOUR PURCHASE PAGE **/
+/** Has the same styling as the thank you page for emails
+(see stylesheets static_pages) **/
+/** INDEX PRODUCT PAGE **/
+/* line 8, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+h3 {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  color: #15272d;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* line 16, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.row {
+  text-align: center;
+  margin: 15px;
+}
+
+/* line 21, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.imageproductpage {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #15272d;
+}
+
+/* line 27, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.productinfo {
+  background-color: #d3e2d7;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #74937d;
+  margin-top: -15px;
+  min-height: 185px;
+}
+
+/* line 36, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.new-product-link {
+  font-size: 1.5em;
+  color: #15272d;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 170px;
+  height: 50px;
+}
+
+/** NEW & EDIT PRODUCT PAGE **/
+/* line 48, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.form-field {
+  margin: auto;
+  width: 30%;
+  background-color: #f4f7f5;
+  line-height: 24px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+/* line 59, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.field {
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+/* line 65, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.form2-button {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 73, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+  .form-field {
+    width: 100%;
+  }
+}
+/* line 78, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.back-and-edit-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+/* line 85, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#error_explanation, .field_with_errors {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/** SHOW PAGE **/
+/* line 93, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#show-product {
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 99, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#right-column-show h2 {
+  font-family: Niconne, Nunito, sans-serif;
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
+/* line 105, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#right-column-show h3 {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 100;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 114, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+  #show-product {
+    padding: 0px;
+  }
+}
+/* line 119, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#pay-button {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 125, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.count-views {
+  padding-left: 15px;
+}
+
+/* line 129, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+.badge {
+  background-color: #74937d;
+}
+
+/* line 133, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#comments-column {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 138, /home/malin/Desktop/myapp/app/assets/stylesheets/products.scss */
+#comments-alert {
+  width: 300px;
+  height: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  color: #493e3a;
+  background-color: #cdbab2;
+  border-color: #937d74;
+}
+/* line 1, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 15, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #485c4e;
+}
+/* line 24, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #65806d;
+}
+/* line 28, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #639974;
+  background-color: #b2cdba;
+}
+
+/* line 35, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/** #notice {
+  color: #91b89d;
+  font-weight: bold;
+} **/
+/* line 45, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 51, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 59, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 70, /home/malin/Desktop/myapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 5, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+* {
+  margin: 0;
+}
+
+/* line 9, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 13, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+body {
+  position: relative;
+  padding-top: 50px;
+  background-color: #fefbcf;
+}
+
+/* line 19, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap {
+  min-height: 100%;
+  margin-botton: -70px;
+  background-color: #fefbcf;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 27, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+/* line 32, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+h1 {
+  font-family: Federo, sans-serif;
+  color: #15272d;
+  text-align: center;
+}
+
+/* line 38, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+h2 {
+  font-family: Federo, sans-serif;
+  color: #15272d;
+  text-align: center;
+}
+
+/* line 44, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.link {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 49, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.imageindexpage {
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* line 54, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+#notice, #alert {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/** NAVIGATION BAR **/
+/* line 63, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.container-navbar {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+/* line 68, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.navbar {
+  background-color: #91b89d;
+}
+
+/* line 72, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.navbar-brand {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+/* line 77, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav .left-links a {
+  color: #f4f7f5;
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  font-size: 1.3em;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/* line 88, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav .left-links a:hover {
+  color: #15272d;
+}
+
+/* line 92, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.btn-default, .btn-sm {
+  background-color: #f4f7f5;
+  color: #15272d;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+/* line 100, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.btn-default:hover {
+  background-color: #ffe4b2;
+  color: #15272d;
+}
+
+/* line 105, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.textfield {
+  background-color: #f4f7f5;
+  color: #15272d;
+  line-height: 23px;
+  margin-top: 10px;
+  padding: 4px;
+  border: 0px;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+/* line 116, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav .right-links a {
+  color: #f4f7f5;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+
+/* line 124, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav .right-links a:hover {
+  color: #15272d;
+}
+
+/** FOOTER **/
+/* line 130, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.site-footer, .page-wrap:after {
+  height: 70px;
+}
+
+/* line 134, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.site-footer {
+  background: #74937d;
+}
+
+/* line 138, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.site-footer p {
+  color: #ffe4b2;
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-weight: 800;
+  font-size: 1.4em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/** CAROUSEL **/
+/* line 149, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.carousel {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 157, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+  .carousel {
+    width: 100%;
+  }
+}
+/* line 162, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.carousel-indicators .active {
+  background-color: #ffe4b2;
+}
+
+/* line 166, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.carousel-inner > .item > img {
+  margin: auto;
+  width: 100%;
+}
+
+/* line 171, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+a:hover {
+  background-color: transparent;
+}
+
+/* line 175, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.carousel-caption {
+  padding-bottom: 50px;
+  font-size: 3.5em;
+  font-family: Niconne, Nunito, sans-serif;
+  color: #ffe4b2;
+}
+
+/* line 182, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.glyphicon {
+  color: #ffe4b2;
+}
+
+/** CONTACT PAGE **/
+/* line 188, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 40%;
+  color: #15272d;
+  font-family: Nunito, arial, helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+/* line 198, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.form-control {
+  background-color: #f4f7f5;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 207, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+  .contact-form {
+    width: 100%;
+  }
+}
+/* line 212, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.form-button {
+  display: block;
+  margin: auto;
+  width: 20%;
+  background-color: #f4f7f5;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+/* line 223, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.form button:hover {
+  background-color: #ffe4b2;
+  color: #15272d;
+}
+
+/** THANK YOU PAGE **/
+/* line 231, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.panel {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 50%;
+}
+
+/* line 238, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.panel-body {
+  text-align: center;
+  background-color: #fefbcf;
+  border-style: double;
+  border-width: 10px;
+  border-color: #91b89d;
+}
+
+/* line 246, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.panel-body p {
+  font-family: Niconne, Nunito, sans-serif;
+  font-size: 2em;
+  line-height: 28px;
+}
+
+/* line 252, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.thankyouimage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 259, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+  .panel {
+    width: 100%;
+  }
+}
+/* line 264, /home/malin/Desktop/myapp/app/assets/stylesheets/static_pages.scss */
+.alert-warning {
+  border-color: #8a6d3b;
+  max-width: 400px;
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 5, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.log-in-link, .sign-up-link, .forgot-password-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+  height: 20px;
+}
+
+/* line 13, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.user-form {
+  margin-top: 30px;
+}
+
+/* line 17, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.sign-up-form {
+  line-height: 34px;
+  font-size: 20px;
+  background-color: #ede6e7;
+  border-color: #84686d;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 3px;
+}
+
+/* line 27, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.user-form-button {
+  display: block;
+  margin: auto;
+  width: 15%;
+  line-height: 34px;
+  background-color: #91b89d;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+/* line 38, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.user-form-button:hover {
+  background-color: #ede6e7;
+  color: #15272d;
+  border-color: #84686d;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 45, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+  .user-form-button {
+    width: 50%;
+  }
+}
+/** BUTTON "Forgot your password-page" **/
+/* line 51, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.user-form-button-2 {
+  display: block;
+  margin: auto;
+  width: 30%;
+  line-height: 34px;
+  background-color: #91b89d;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #91b89d;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  /* line 63, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+  .user-form-button-2 {
+    width: 100%;
+  }
+}
+/** USERS INDEX PAGE **/
+/* line 69, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.listing-users {
+  width: 400px;
+}
+
+/* line 73, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.heading-users {
+  text-align: left;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+}
+
+/* line 79, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+th {
+  font-family: "Source Code Pro", monospace, sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 5px;
+}
+
+/** USERS EDIT PAGE **/
+/* line 86, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.edit-user-form {
+  line-height: 24px;
+  font-size: 18px;
+  background-color: #ede6e7;
+  border-color: #84686d;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 3px;
+}
+
+/* line 96, /home/malin/Desktop/myapp/app/assets/stylesheets/users.scss */
+.edit-user-button {
+  line-height: 24px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
