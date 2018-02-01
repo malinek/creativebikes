@@ -2,7 +2,7 @@ class Product < ApplicationRecord
   has_many :orders
   has_many :comments
 
-  validates :name, presence: true
+  validates :name, :description, :colour, :price, presence: true
 
   def highest_rating_comment
     comments.rating_desc.first
@@ -22,11 +22,13 @@ class Product < ApplicationRecord
   end
 
   def views
-    $redis.get("product:#{id}") # this is equivalent to "GET product:1"
+    # this is equivalent to "GET product:1"
+    $redis.get("product:#{id}")
   end
 
   def viewed!
-    $redis.incr("product:#{id}") # this is equivalent to "INC product:1"
+    # this is equivalent to "INC product:1"
+    $redis.incr("product:#{id}")
   end
 
 
