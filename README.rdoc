@@ -1,4 +1,6 @@
 == README
 
-A short message about myself and my app. I'm Malin and this is all new to me.
+This project is all ablout building a production ready e-commerse web app using Ruby on Rails. It's the major project in CareerFoundry's web development course.
+
+It's completed now.
 
