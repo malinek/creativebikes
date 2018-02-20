@@ -20,19 +20,19 @@ describe Product, type: :model do
   context "Testing validations" do
 
     it "Is not valid without a name" do
-      expect(Product.new(description: "Nice bike")).not_to be_valid
+      expect(FactoryBot.build(:product, name: nil)).not_to be_valid
     end
 
     it "Is not valid without a colour" do
-      expect(Product.new(name: "New bike", description: "This is a really nice bike", price: "200")).not_to be_valid
+      expect(FactoryBot.build(:product, colour: nil)).not_to be_valid
     end
 
     it "Is not valid without a description" do
-      expect(Product.new(name: "New bike", colour: "black", price: "200")).not_to be_valid
+      expect(FactoryBot.build(:product, description: nil)).not_to be_valid
     end
 
     it "Is not valid without a price" do
-      expect(Product.new(name: "New bike", colour: "white", description: "This is a really nice bike")).not_to be_valid
+      expect(FactoryBot.build(:product, price: nil)).not_to be_valid
     end
 
   end
