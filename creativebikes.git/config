@@ -3,6 +3,6 @@
 	filemode = true
 	bare = true
 [remote "origin"]
-	url = git://github.com/malinek/creativebikes
+	url = https://github.com/malinek/creativebikes
 	fetch = +refs/*:refs/*
 	mirror = true
