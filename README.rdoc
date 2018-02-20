@@ -1,6 +1,15 @@
 == README
 
-This project is all ablout building a production ready e-commerse web app using Ruby on Rails. It's the major project in CareerFoundry's web development course.
+This project is the major one in CareerFoundry's web development course. I have built a production-ready e-commerce web app that:
 
-It's completed now.
+- allows orders to be placed
 
+- is free of bugs and security issues
+
+- uses AJAX to make requests without reloading the page
+
+- is well designed and interactive using Bootstrap and JavaScript
+
+- uses WebSockets through ActionCable to send real-time updates to your users
+
+-has tests for models and controllers
