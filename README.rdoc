@@ -12,4 +12,4 @@ This project is the major one in CareerFoundry's web development course. I have 
 
 - uses WebSockets through ActionCable to send real-time updates to your users
 
--has tests for models and controllers
+- has tests for models and controllers
